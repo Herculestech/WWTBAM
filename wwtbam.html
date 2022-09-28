@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/styles/bootstrap.css"> -->
+</head>
+<style>
+    body {
+        background-image: url(who_wants_to_be_a_millionaire_ep1_23_1.jpeg);
+        background-size: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+    <center>
+        <div class="d-grid gap-2 col-6 mx-auto col-4  py-5 my-5" style="height: 10px;">
+            <div class="py-5"></div><br><br>
+            <div class="py-5"></div><br><br>
+            <h1 style="width: 140%;height: 40px; font-size: 15px; font-family: sans;justify-self: center;" id="mainQuestion" class="rounded-pill bg-primary text-center py-2 mt-5 text-white"></h1>
+            <span class="d-flex mt-5" style="align-self: auto;">
+            <button class="btn btn-primary w-75 rounded-pill" type="button"  id="optA" onclick="a()"></button>
+            <button class="btn btn-primary rounded-pill w-75 ms-5" type="button" id="optB" onclick="b()"></button>
+        </span>
+        <span class="d-flex mt-5">
+            <button class="btn btn-primary w-75 rounded-pill" type="button"  id="optC" onclick="c()"></button>
+            <button class="btn btn-primary w-75 ms-5 rounded-pill" type="button" id="optD" onclick="d()"></button>
+        </span>
+        <center>
+            <button onclick="loadQuestion()" class="btn btn-primary w-25 rounded-pill mt-3" id="load">Load Question</button>
+        <button class="btn btn-primary  ms-5 rounded-pill mt-3 w-25"  type="button" id="next" onclick="nextQuest()">Next Question</button>
+    </center>
+          </div>
+   
+    </center>  
+
+<script src="wwtbam.js"></script>
+</body>
+</html>
