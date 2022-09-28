@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+<style>
+    body {
+        background-image: url(who_wants_to_be_a_millionaire_ep1_23_1.jpeg);
+        background-size: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+     <center>
+        <div class="d-grid gap-2 col-6 mx-auto col-4  py-5 my-5">
+            <div class="py-5"></div><br><br><br>
+            <div class="py-5"></div><br><br><br>
+            <input type="text" id="questioninput" style=" width: 140%;height: 40px; font-size: 15px; font-family: sans;justify-self: center;" class="rounded-pill bg-primary text-center py-2 mt-5 text-white">
+            <span class="d-flex mt-5" style="align-self: auto;">
+                <input type="text" name="" id="firstoption" class="btn btn-primary w-75 rounded-pill" value="A.">
+                <input type="text" name="" id="secondoption" class="btn btn-primary w-75 ms-5 rounded-pill" value="B.">
+        </span>
+        <span class="d-flex mt-5">
+            <input type="text" name="" id="thirdoption" class="btn btn-primary w-75 rounded-pill" value="C.">
+            <input type="text" name="" id="fourthoption" class="btn btn-primary w-75 ms-5 rounded-pill" value="D.">
+        </span>
+        <input type="text" name="" id="answer" class="btn btn-primary w-25 text-center rounded-pill text-white" placeholder="Answer"style="justify-self: center;">
+        <button onclick="submitQuestion()" class="btn btn-primary rounded-pill w-25 mt-4" style="justify-self: center;">Submit Question</button>
+          </div>
+    </center> 
+    <script src="adminpage.js"></script>
+</body>
+</html>
